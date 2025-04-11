@@ -1,0 +1,121 @@
+.checkout-container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f5f7f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-section, .price-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .form-section {
+    flex: 2;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-address-btn {
+    background: none;
+    border: none;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .address-form input,
+  .address-form select,
+  .address-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+  }
+  
+  .address-type {
+    margin: 15px 0;
+  }
+  
+  .address-type p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .address-type label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .note {
+    font-size: 12px;
+    color: #666;
+    margin-left: 5px;
+  }
+  
+  .submit-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  .price-section h3 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    font-size: 14px;
+  }
+  
+  .price-row.total {
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .price-row.discount {
+    color: green;
+  }
+  
+  .free {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .savings-note {
+    color: green;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  
